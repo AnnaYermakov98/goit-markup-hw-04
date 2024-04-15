@@ -164,7 +164,7 @@ ul, ol {
     background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)),
-    url(../images/people-office\1.jpg);
+    url(../images/people-office.jpg)
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -458,7 +458,7 @@ justify-content: center;
     background-color: #2E2F42;
     padding: 100px 0;
     display: flex;
-    align-items: baseline
+    align-items: baseline;
 }
 
 .container-footer {
