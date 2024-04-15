@@ -169,6 +169,7 @@ ul, ol {
     background-position: center;
     background-size: cover;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .main-title {
@@ -462,7 +463,6 @@ justify-content: center;
 }
 
 .container-footer {
-   margin-left: 156px;
    margin-right: 120px;
 }
 
