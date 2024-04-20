@@ -38,9 +38,9 @@ ul, ol {
     margin: 0 auto; 
     }
 
-    .section {
+    /*.section {
         max-width: 100%;
-    }
+    }*/
 
 
 
@@ -335,6 +335,7 @@ ul, ol {
     line-height: 150%;
     letter-spacing: 0.02em;
     text-align: center;
+    padding-bottom: 8px;
 }
 
 
@@ -458,8 +459,11 @@ justify-content: center;
 .footer {
     background-color: #2E2F42;
     padding: 100px 0;
+}
+
+.footer-wrap {
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 
 .container-footer {
@@ -500,7 +504,7 @@ justify-content: center;
     .footer-soc-title {
         font-weight: 500;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #FFFFFF;
         margin-bottom: 16px; 
@@ -509,7 +513,7 @@ justify-content: center;
     .footer-soc-list {
         display: flex;
         gap: 16px;
-        justify-content: center;
+        justify-content: baseline;
     }
 
     .footer-item {
